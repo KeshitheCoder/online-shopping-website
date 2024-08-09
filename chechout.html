@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Grossery shopping, online shopping">
+        <meta name="viewport" content="width=device-width,initial_scale = 1.0">
+        <meta name="description" content="Shop fresh and quality goods online at the best supermarket. Explore wide range of  freash vegetable,fruits, meat,seafood,diary and other items such as household items and stationery at Grocies" >
+        <link href="https://fonts.googleapis.com/css2?family=Alata:wght@400;700&family=League+Spartan:wght@400;700&family=Montserrat:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap" 
+        rel="stylesheet"></link>
+        <link rel="stylesheet" href="checkout.css">
+        <link rel="manifest" href="manifest1.json"></link>
+    </head>
+    <body>
+        <script src="scriptfile.js"></script>
+        <header><div class="header-container">
+
+            <div class="logo"><img  src="images/G.png" alt="logo"></img></div>
+
+
+            
+        </div>
+            
+                
+            
+        </header>
+        <main>
+
+               
+            <div class="a"><a href="index.html">Previous page</a></div>
+            <section class="order-section">
+                <div class="order-summary" id="displayorder">
+                    <text >Your Order</text>
+
+                    <table>
+                        <th>
+                            <td id="itm">Item</td>
+                            <td id="qty">Qty</td>
+                            <td id="prc">Price</td> 
+                        </th>
+                    </table>
+                  
+
+
+                </div>
+
+                
+                </div>
+
+                
+                </section>
+
+                <section class="formsection">
+                <div class="form-container">
+                    
+                    <form class="form">
+                        <label class="heading">Pay with Cash on Delivery</label>
+
+                        <div><label id="txt">Or Pay with Card</label></div>
+                    
+                        <div class="form-content">
+                            <label class="section-headings">Shipping Information</label>
+                        
+                        <div class="input-output">
+                            <label class="label" for="Name">Name</label>
+                            <input class="input" type="text"  maxlength="30" id="Name"  required></input></div>
+    
+                        
+                        <div class="input-output">
+                            <label class="label" >Shipping Address</label>
+                            <div class="Address-area" >
+                                <input type="text" placeholder="House No." required></input>
+                                <input type="text" placeholder="Address line 1"required></input>
+                                <input type="text" placeholder="Address line 2"  required></input>
+                            </div>
+                        </div>
+    
+                        <div class="input-output">
+                            <label for ="Mobile"class="label">Mobile</label>
+                            <input class="input" type="tel"  id="Mobile" placeholder="07XXXXXXXX" pattern="[0-9]{10}" required></input>
+                        </div>
+    
+                        <div class="input-output">
+                            <label for="email" class="label">Email</label>
+                                <input class="input" type="email" id="email" required></input></div>
+    
+                                
+                <label class="section-headings">Payment Information</label>
+                    <div class="form-lower">
+                        <div class="radiocls">
+                            <label>Select Card</label>
+                            <input type="radio" name="card" class="radiobuttons"> VISA</input>
+                                    
+                            <div class="visacls">
+                                        
+                                <img class="visa" src="images/download .png" alt="visa"></img></div>
+                                </input> 
+                        
+                                <input type="radio" name="card" class="radiobuttons">Mastercard </input>
+                                    <div class="mastercls">
+                                    <img class="mastercard" src="images/download.png" alt="visa">
+                        
+                                    </img>
+                            </div>
+                </input>   
+             </div>
+                        
+                            <div class="input-output">
+                                <label for ="Card"class="label">Card no.</label>
+                                <input class="input" type="text" pattern="[0-9]{4}+[0-9]{4}+[0-9]{4}+[0-9]{4}" placeholder="xxxx-xxxx-xxxx-xxxx" required id="card"></input></div>
+    
+                                <div class="input-output">
+                                    <label for="Exp"class="label">Exp. Date </label>
+    
+                                    
+                                    <input  id="Exp"class="input" type="month" required></input>
+    
+                                    
+                                    </div>
+    
+                                    <div class="input-output">
+                                        <label for ="cvc"class="label">CVC</label>
+                                        <input class="input" type="number" pattern="[0-9]{3,}" id="cvc"></input></div>
+                        </div>
+
+                        
+                        
+            
+                    </div>
+                    <div id="popup"></div>
+                        <div class="space-btn-proceed">
+                            <button class="proceedbtn" id="proceed" onclick="PopUp()">Pay</button>
+                        </div>
+                    </form>
+                    
+                </div>
+            </section>
+
+            <div class="popup">
+                
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </main>
+        
+    </body>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-text"> all rights reserved | &copy;Grocies |&trade;Grocies</div>
+        </div>
+    </footer>

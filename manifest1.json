@@ -1,0 +1,43 @@
+{
+  "name": "Grocery Ordering App",
+  "short_name": "ShoppingApp",
+  "description": "App to shop items online",
+  "start_url": "./orderpage.html",
+  "id":":",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff",
+  "icons": [
+    {
+      "src": "images/squarelogo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "rel": "icon",
+      "purpose":"any"
+    }
+  ],
+
+  "screenshots": [
+    
+    {
+
+    "src":"/screenshots/laptopview.png",
+    "sizes":"1366x584",
+    "type":"image/png",
+    "form_factor":"wide"
+
+  },
+
+    {
+      "src":"/screenshots/mobileview.png",
+      "sizes":"375x520",
+      "type":"image/png",
+      "form_factor":"narrow"
+    }
+  
+  
+    ]
+}
+
+  
+   
